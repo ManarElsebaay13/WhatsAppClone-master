@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        
+        <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                
+                
+                <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        app:title="@string/app_name"
+                        app:titleTextColor="@color/white"
+                        android:background="?attr/colorPrimary"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+                        />
+                
+                
+                <android.support.design.widget.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        app:tabIndicatorHeight="3dp"
+                        app:tabIndicatorColor="@color/white"
+                        app:tabSelectedTextColor="?attr/tabSelectedColor"
+                        app:tabTextColor="?attr/tabUnselectedColor"
+                        >
+                        
+                        <android.support.design.widget.TabItem
+                                android:id="@+id/CameraTab"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:icon="@drawable/ic_action_camera_unselected"
+                                />
+                        
+                        <android.support.design.widget.TabItem
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/chats"
+                                />
+                        
+                        <android.support.design.widget.TabItem
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/status" />
+                        
+                        <android.support.design.widget.TabItem
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/calls" />
+                
+                
+                </android.support.design.widget.TabLayout>
+                
+                <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                
+        </LinearLayout>
+        
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="#edf5f7"
+                app:fabSize="mini"
+                android:src="@drawable/ic_action_edit"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="88dp"
+                />
+        
+        
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/mainFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_message"
+                />
+        
+</android.support.design.widget.CoordinatorLayout>
