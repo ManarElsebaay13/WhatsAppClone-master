@@ -1,5 +1,4 @@
-# Whatsapp-UI Android 
-  A perfect Whatsapp UI replica for developers ❤️ now available with dark theme
+# WhatsAppClone  
   
 ## ScreenShots
 
@@ -7,24 +6,15 @@
 
 <br><br>
 
-<img height=550 width=275 src="https://github.com/usman18/WhatsappUI-Android/blob/master/Screenshots/WD1.JPG"><img height=550 width=275 src="https://github.com/usman18/WhatsappUI-Android/blob/master/Screenshots/WD2.JPG" hspace=24/><img height=550 width=275 src="https://github.com/usman18/WhatsappUI-Android/blob/master/Screenshots/WD3.JPG"/> 
-
-<br>
-
-<img height=550 width=300 hspace=120 src="https://github.com/usman18/WhatsappUI-Android/blob/master/Screenshots/ProfileDialogWhite.gif"><img height=550 width=300 src="https://github.com/usman18/WhatsappUI-Android/blob/master/Screenshots/ProfileDialogDark.gif">
+<img height=550 width=275 src=""><img height=550 width=275 src="" hspace=24/><img height=550 width=275 src=""/> 
 
 
-<br><br>
+<div align="center">
+    <img src="WhatsApp Image 2019-09-22 at 6.49.20 PM.jpeg" width="400px"</img> 
+</div>
 
-## Contributions
-Contributions are always welcome. Please fork this repository and contribute using pull requests. The pull requests will be thoroughly assessed and if found significant will be accepted.
+<div align="center">
+    <img src="WhatsApp Image 2019-09-22 at 6.49.49 PM.jpeg" width="400px"</img> 
+</div>
 
 
-## Lets become friends
-- [Medium](https://medium.com/@usman18)
-- [Instagram](https://www.instagram.com/usman__khan18/)
-- [Twitter](https://twitter.com/khan_usman_18)
-- [LinkedIn](https://www.linkedin.com/in/usman-khan-7b04b1138)
-- [Github](https://github.com/usman18)
-
-My email : uk32971@gmail.com
